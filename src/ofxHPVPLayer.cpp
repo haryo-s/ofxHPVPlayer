@@ -256,6 +256,11 @@ int ofxHPVPlayer::getTotalNumFrames() const
     return static_cast<int>(m_hpv_player->getNumberOfFrames());
 }
 
+std::string ofxHPVPlayer::getFilename() const
+{
+	return static_cast<std::string>(m_hpv_player->getFilename());
+}
+
 ofLoopType ofxHPVPlayer::getLoopState() const
 {
     switch (m_hpv_player->getLoopMode()) {

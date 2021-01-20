@@ -43,6 +43,7 @@ public:
     bool                getIsMovieDone() const;
     int                 getCurrentFrame() const;
     int                 getTotalNumFrames() const;
+	std::string			getFilename() const;
     ofLoopType          getLoopState() const;
     int64_t             getLoopIn() const;
     int64_t             getLoopOut() const;
