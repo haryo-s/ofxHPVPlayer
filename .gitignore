@@ -34,3 +34,5 @@ build/
 *.hpv
 *.log
 *.rc
+
+.vs/
