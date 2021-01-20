@@ -3,12 +3,7 @@
 
 int main( )
 {
-    ofGLWindowSettings settings;
-    settings.width = 1024;
-    settings.height = 512;
-    settings.windowMode = OF_WINDOW;
-    settings.setGLVersion(4, 1);
-    
-    ofCreateWindow(settings);
+	ofSetupOpenGL(1024, 512, OF_WINDOW);
+	
     ofRunApp(new ofApp());
 }
